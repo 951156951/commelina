@@ -41,22 +41,22 @@
 
         <dependency>
             <groupId>com.typesafe.akka</groupId>
-            <artifactId>akka-actor_2.11</artifactId>
+            <artifactId>akka-actor_2.12</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.typesafe.akka</groupId>
+            <artifactId>akka-remote_2.12</artifactId>
         </dependency>
 
         <dependency>
             <groupId>com.typesafe.akka</groupId>
-            <artifactId>akka-remote_2.11</artifactId>
+            <artifactId>akka-cluster_2.12</artifactId>
         </dependency>
+
 
         <dependency>
             <groupId>com.typesafe.akka</groupId>
-            <artifactId>akka-cluster_2.11</artifactId>
-        </dependency>
-
-        <dependency>
-            <groupId>com.typesafe.akka</groupId>
-            <artifactId>akka-cluster-metrics_2.11</artifactId>
+            <artifactId>akka-cluster-metrics_2.12</artifactId>
         </dependency>
 
     </dependencies>

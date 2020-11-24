@@ -7,6 +7,9 @@
     <artifactId>parent</artifactId>
     <packaging>pom</packaging>
     <version>${revision}</version>
+    <modules>
+        <module>message-proto</module>
+    </modules>
 
     <properties>
         <revision>1.0.0</revision>
@@ -22,6 +25,7 @@
             </activation>
             <modules>
                 <module>kernel</module>
+                <module>message-proto</module>
             </modules>
         </profile>
         <profile>
