@@ -12,7 +12,13 @@
 
     <artifactId>math24-play-gateway</artifactId>
     <packaging>jar</packaging>
-
+    <dependencies>
+        <dependency>
+            <groupId>com.github.freedompy.commelina</groupId>
+            <artifactId>message-proto</artifactId>
+            <version>1.0.0</version>
+        </dependency>
+    </dependencies>
     <build>
         <plugins>
             <plugin>

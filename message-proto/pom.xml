@@ -10,6 +10,20 @@
     <modelVersion>4.0.0</modelVersion>
 
     <artifactId>message-proto</artifactId>
+    <dependencies>
+        <!--googld protobuf 通信协议 -->
+        <dependency>
+            <groupId>com.google.protobuf</groupId>
+            <artifactId>protobuf-java</artifactId>
+            <version>3.4.0</version>
+        </dependency>
 
+        <!--protobuf对象转json-->
+        <dependency>
+            <groupId>com.googlecode.protobuf-java-format</groupId>
+            <artifactId>protobuf-java-format</artifactId>
+            <version>1.2</version>
+        </dependency>
+    </dependencies>
 
 </project>
